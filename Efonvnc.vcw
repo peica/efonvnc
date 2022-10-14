@@ -1,0 +1,158 @@
+Microsoft eMbedded Visual Tools Workspace File, Format Version 4.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Network"=.\Network\Network.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Xregion"=.\Xregion\Xregion.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "logmessages"=.\logmessages\logmessages.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "rdr"=.\rdr\rdr.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "rfb"=.\rfb\rfb.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Xregion
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rdr
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rfb_wince"=.\rfb_wince\rfb_wince.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name rfb
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "vncconfig"=.\vncconfig\vncconfig.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Network
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rfb
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rfb_wince
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Xregion
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "winvnc"=.\winvnc\winvnc.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Network
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rfb_wince
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Xregion
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name zlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "zlib"=.\zlib\zlib.vcp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

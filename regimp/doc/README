@@ -1,0 +1,25 @@
+	Regimp release 1.0 <http://www.efon.cn/>
+
+These are the release notes for Regimp 2.6.  Read them carefully,
+as they tell you what this is all about, explain how to use it, and 
+what to do if something goes wrong. 
+
+WHAT IS REGIMP?
+
+  Regimp is a Windows CE registry import tools. It would be use in all Windows CE
+  support hardware platform.
+
+  It has based on the ini parser which is writed by Nicolas Devillard.
+
+  It is distributed under the MIT License - see the
+  accompanying COPYING file for more details. 
+
+HOW TO USE IT
+
+	usage: regimp.exe [/f:filename] [/s]  [/b]
+
+	f:filename: special the file name which you use to import.
+
+	s: turn the silence mode on. when during the silence , tool will not show you the GUI. 
+
+	b: indicate if save the registry after the imported.

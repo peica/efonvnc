@@ -1,0 +1,8 @@
+2006-01-11
+inline abs(int x) {return x>0 ? x : 0;} ==> inline rfb_wince_abs(int x) {return x>0 ? x : 0;}
+; abs is intrinsic function.
+
+2006-01-27
+disable the icon cursor
+disable the registry changed notify
+

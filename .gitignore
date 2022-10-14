@@ -1,0 +1,7 @@
+*.vcproj.*.user
+*/STANDARDSDK_500 (x86)
+*/GESBC9G20 (ARMV4I)
+*.ncb
+*.suo
+*.vcl
+*.aps
